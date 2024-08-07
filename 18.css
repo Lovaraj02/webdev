@@ -1,0 +1,324 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* ROW-1 STARTS HERE */
+
+.row1{
+    width:100%;
+    height: 500px;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#line{
+    width: 50px;
+    height: 5px;
+    background-color: blue;
+    margin-right: 110px;
+}
+
+.imag{ 
+    width:50%;
+    
+}
+#img1{
+    width: 100%;
+    height: 100%;
+    margin-top: 60px;
+}
+button{
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: rgb(34, 34, 232);
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px;
+    cursor: pointer;
+}
+h1{
+    color:rgb(34, 34, 232);
+}
+
+/* ROW-2 STARTS HERE */
+
+.row2{
+    width:100%;
+    height: 500px;
+    background-color:rgb(34, 34, 232);
+    text-align: center;
+    
+    
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+
+}
+
+.box1{
+    width:250px;
+    height: 300px;
+    background-color:white;
+    border-radius: 10px;
+    position: relative;
+    
+    
+}
+
+#box_data{
+    margin: 70px 15px 10px;
+}
+.circle1{
+    width: 100px;
+    height: 100px;
+    background-color:#ccc;
+    border-radius: 200px;
+    position: absolute;
+    left: 70px;
+    top:-40px
+   
+    
+   
+}
+#hea{
+    color: white;
+    text-transform: capitalize;
+    padding: 6px;
+}
+
+#phe{
+    color: white;
+}
+#b1{
+    margin-top: 250px;
+}
+#b2{
+    margin-top: 250px;
+}
+#b3{
+    margin-top: 250px;
+}
+.box2{
+    width:250px;
+    height: 300px;
+    background-color:white;
+    position: relative;
+    border-radius: 10px;
+    
+}
+.circle2{
+    width: 100px;
+    height: 100px;
+    background-color:#ccc;
+    border-radius: 200px;
+    position: absolute;
+    left: 70px;
+    top:-40px
+
+    
+}
+.box3{
+    width:250px;
+    height: 300px;
+    background-color:white;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.circle3{
+    width: 100px;
+    height: 100px;
+    background-color:#ccc;
+    border-radius: 250px;
+    position: absolute;
+    left: 70px;
+    top:-40px
+    /* bottom: 200px; */
+    
+    
+    
+}
+
+/* ROW-3 STARTS HERE */
+.row3{
+    width:100%;
+    height: 500px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#pa{ 
+    color:rgb(34, 34, 232);
+    text-transform: uppercase;
+}
+#heading{
+    color:rgb(34, 34, 232);
+    text-transform: uppercase;
+}
+
+.im{
+    width:50%;
+    margin:50px 30px 50px 100px;
+}
+#img2{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.data{
+    width: 50%;
+    margin-top: 80px;
+}
+
+/* ROW-4 STARTS HERE */
+
+.row4{
+    width:100%;
+    height: 500px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    row-gap: 10px;
+
+}
+#h1{
+    text-transform: uppercase;
+    color: rgb(34, 34, 232);
+}
+#p{
+    color: black;
+}
+
+.div1{
+    max-width: 850px;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    margin: 0px 15px;
+    border-radius: 5px;
+    
+}
+.div2{
+    max-width: 850px;
+    width: 100%;
+    margin:0px 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    
+    
+}
+.div3{
+    max-width: 850px;
+    width: 100%;
+    margin:0px 15px;
+    padding: 10px;
+    background-color: rgb(34, 34, 232);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+/* ROW-5 STARTS HERE */
+
+.row5{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    margin: 50px 10px 0px 100px;
+
+
+}
+#paragraph{
+    width: 100%;
+}
+
+#headinggg{
+    width: 100%;
+    text-transform: uppercase;
+    color: rgb(34, 20, 123);
+}
+
+.right{
+    width: 50%;
+    margin: 50px 100px;
+    
+}
+#img3{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/* ROW-6 STARTS HERE */
+
+
+.row6{
+    width: 100%;
+    background-image: url("https://www.shutterstock.com/image-photo/future-digital-technology-metaverse-game-260nw-1930856735.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-color:#ccc;
+    
+
+
+}
+
+
+.mydiv{
+    width: 250px;
+    height:230px;
+    padding: 20px;
+    background-color: white;
+    margin: 100px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+#tec{
+    text-transform: uppercase;
+    color: rgb(34, 34, 232);
+}
+#h{
+    text-transform: uppercase;
+
+}
+
+ 
+
