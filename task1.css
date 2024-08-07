@@ -1,116 +1,110 @@
-body {
+body{
     margin: 0;
     background-color: #ccc;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100svh;
 }
 
-.head {
+.head{
     width: 100%;
-    height: 7vh;
+    height:7vh;
     background-color: white;
+    margin: 7px auto;
     text-align: center;
     box-shadow: 1px 1px 1px #fcf1fe;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
-.button {
+.button{
     background-color: cyan;
-    margin: 10px;
-    padding: 6px 12px;
+    margin: 10px auto;
+    padding: 6px;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
 }
 
-.john {
+.john{
     background-color: white;
-    width: 40%;
-    margin: 50px auto;
+    width: 30%;
+    margin:50px;
+    box-shadow: white;
     text-align: center;
     text-transform: capitalize;
     box-shadow: 1px 1px 1px #fcf1fe;
-    padding: 20px;
-    border-radius: 10px;
+    height:120vh;
 }
 
-.john img {
+img{
     width: 50%;
-    border-radius: 50%;
+    border-radius: 200px;
     margin-top: 30px;
 }
 
-#button1 {
+#button1{
     background-color: rgb(69, 69, 129);
     color: white;
     padding: 6px;
     margin-bottom: 10px;
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
 }
 
-#button2 {
-    background-color: white;
+#button2{
+    background-color:white;
     color: blue;
     padding: 6px;
+    box-shadow: 10px;
     cursor: pointer;
-    border: 1px solid blue;
-    border-radius: 5px;
+
+
 }
 
-.details {
+.details{
+
     background-color: white;
     width: 50%;
-    margin: 20px auto;
+    font-size: bold;
     text-transform: capitalize;
     box-shadow: 1px 1px 1px #fcf1fe;
-    padding: 20px;
-    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 150px;
+
+
+    
+
 }
 
-.form {
+.form{
     display: flex;
     flex-direction: column;
+    padding: 10px; 
+    box-shadow: 1px 1px 1px #fcf1fe;  
 }
 
-.form label {
-    padding: 10px 0;
+label{
+   padding: 10px;
 }
-
-.form input {
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-#button {
-    margin-top: 20px;
+#button{
+    margin: 20px;
     background-color: brown;
     color: white;
     border: none;
-    padding: 10px;
     cursor: pointer;
-    border-radius: 5px;
 }
-
-.project {
+.project{
     background-color: white;
-    width: 50%;
-    margin: 20px auto;
-    padding: 20px;
+    width: 43%;
     text-transform: capitalize;
     font-size: large;
     box-shadow: 1px 1px 1px #fcf1fe;
-    border-radius: 10px;
+    position: absolute;
+    right: 150px;
+    top:530px;
+    padding:53px;
+    height: fit-content;
+    
 }
-
-.project input[type="range"] {
+input{
     width: 100%;
-    margin: 10px 0;
+    
+    
 }
